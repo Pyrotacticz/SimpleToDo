@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
                 val text: String? = data.getStringExtra("text")
                 val pos: Int = Integer.parseInt(data.getStringExtra("position") ?: "0")
 
-                if (text != null) {
+                if (text != null && text.isNotEmpty()) {
                     listOfTasks[pos] = text
                     adapter.notifyItemChanged(pos)
                 } else {
