@@ -24,13 +24,14 @@ The following **additional** features are implemented:
 * [x] Text wrap on editing todo items with longer text
 * [x] On editing todo items, deletes the todo item if returning empty on editing
 * [x] User can **not add an empty todo item**
+* [x] Prevent user from adding newlines on adding todo items.
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Pyrotacticz/SimpleToDo/blob/master/SimpleToDoWalkThrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
