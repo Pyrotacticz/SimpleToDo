@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.button).setOnClickListener {
 
-            val userInputtedTask = inputTextField.text.toString()
+            val userInputtedTask = inputTextField.text.toString().trim().replace("\n", " ")
             if (userInputtedTask.isNotEmpty()) {
                 listOfTasks.add(userInputtedTask)
 
